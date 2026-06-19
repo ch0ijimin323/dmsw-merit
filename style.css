@@ -1,0 +1,79 @@
+/* 공통 디자인 - 모든 페이지가 같이 사용 */
+body {
+  font-family: "Malgun Gothic", sans-serif;
+  color: #333;
+  margin: 0;
+  background-color: #F7F8FA;
+}
+
+/* 상단 메뉴 */
+.menu {
+  background-color: #3B82F6;
+  padding: 20px 30px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+/* 메뉴에 마우스 올리면 밑줄 */
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* 로그인 입력칸 */
+input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* 본문 영역 */
+.wrap {
+  padding: 30px;
+  max-width: 800px;
+}
+
+/* 표 */
+table {
+  width: 100%;
+  border: 1px solid #E2E8F0;
+}
+th {
+  background: #F1F5F9;
+  padding: 12px;
+  text-align: left;
+}
+td {
+  padding: 12px;
+  border-top: 1px solid #E2E8F0;
+}
+/* 줄을 번갈아 색칠해서 보기 편하게 */
+tr:nth-child(even) {
+  background: #F8FAFC;
+}
+/* 마우스 올린 줄 강조 */
+table tr:hover td {
+  background: #EFF6FF;
+}
+
+/* 버튼 */
+button {
+  background: #3B82F6;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+/* 마우스 올리면 색 진해지고 살짝 커짐 */
+button:hover {
+  background: #2563EB;
+  transform: scale(1.05);
+}
+
+/* 색깔 */
+.green { color: #22C55E; }
+.red { color: #EF4444; }
